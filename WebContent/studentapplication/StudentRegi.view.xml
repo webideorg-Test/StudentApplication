@@ -2,7 +2,12 @@
 		controllerName="studentapplication.StudentRegi" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Title">
 		<content>
-	
+	 <HBox>
+	     <Button text="-" id="btnless" press="onless" enabled ="true"></Button>
+	     <Input id="t" value="0" type="Number"></Input>
+	     <Button text="+" id="btnadd" press="onAdd" enabled ="true"></Button>
+	     
+	     </HBox>
 		</content>
 	</Page>
 </core:View>
